@@ -1,0 +1,70 @@
+/* body {
+    /* background-color:darkslategrey; */
+    background-image: url('bg.jpg');
+    background-size: cover;
+} */
+h3,p{ 
+    color: white;
+    font-weight: bolder;
+}
+.row{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+
+.col {
+    width:32%;
+    height: 660px;
+    border: black;
+    border: 3px solid lightslategray;
+    padding-left: 20px;
+    
+}
+
+.col img{
+    width: 100%;
+    height: 300px;
+}
+header{
+    
+    width: 100%;
+    background-color:lightslategray;
+    display: flex;
+    justify-content: space-around;
+    
+    height: 50px;
+    
+}
+/* header{
+    background-image: url('bg.jpg');
+    background-size: cover;
+} */
+nav a{
+    
+    
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 100px;
+
+
+}
+button{
+    width: 80px;
+    height: 30px;
+    background-color:mediumaquamarine;
+    color:white;
+    border-radius: 30%;
+}
+.btnclass{
+    display: flex;
+    justify-content: center;
+}
+
+
