@@ -3,7 +3,11 @@ if(num>0)
 {
     console.log("positive")
 }
-else
+else if(num<0)
 {
     console.log("negative")
+}
+else
+{
+    console.log("number is zero")
 }

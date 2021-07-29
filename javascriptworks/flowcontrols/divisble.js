@@ -1,14 +1,12 @@
-num1=75;
+var num1=75
+var res=""
 if(num1%3==0)
 (
-    console.log("fizz")
+    res+="fizz"
 )
 if(num1%5==0)
 (
-    console.log("buzz")
+    res+="buzz"
 
 )
-if(num1%15==0)
-(
-    console.log("fizzbuzz")
-)
+console.log(res)
