@@ -1,4 +1,4 @@
-var a=14,b=54,c=36
+var num1=14,num2=54,num3=36
 var res
-res=a>b&&a>c?(b>c?b:c):b>a&&b>c?(a>c?a:c):c>a&&c>b?(a>b?a:b):""
+res=num1>num2&&num1>num3?(num2>num3?num2:num3):num2>num1&&num2>num3?(num1>num3?num1:num3):num3>num1&&num3>num2?(num1>num2?num1:num2):""
 console.log(res)
