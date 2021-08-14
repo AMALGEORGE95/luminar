@@ -1200,84 +1200,8 @@ var todos=[
       "completed": false
     }
   ]
-  // var todo_count=0
-  // for(let todo of todos)
-  // {
-  //     if(todo.userId==1)
-  //     {
-  //         todo_count++
-  //     }
-  // }
-  // console.log(todo_count)
-  // *********************************************************************************************8*******
-  // var todo_user=todos.filter(todo=>todo.userId==1 & todo.completed==true).length;
-  // console.log(todo_user)
-  // *******************************************************************************************************
-  // var todo_count_user={}
-  //  for(let todo of todos)
-  // {
-  //   if (!(todo.userId in todo_count_user))
-  //   {
-  //     todo_count_user[todo.userId]=1
-  //   }
-  //   else
-  //   todo_count_user[todo.userId]+=1
-  // }
-  // console.log(todo_count_user)
-  // ***************************************************************************************************
-   //todos.map(todo=>todo.userId in todo_count_user?todo_count_user[todo.userId]+=1:todo_count_user[todo.userId]=1)
-   //console.log(todo_count_user)
-  //  ***************************************************************************************
-  // var todo2={}
-  
-  //  var i=1
-  // for(let todo of todos)
-  // {
-  //   if(!(todo in todo2))
-  //   {
-  //     todo2[i]=todo
-  //     i++
-  //   }
-  
-  // }
-  // console.log(todo2)
- 
-//  **********************************************************************************************************
- 
-
-//  var todo3={}
-//  var i=1
-// todos.map(todo=>todo in todos,todo in todo3?todo3[i]=todo:"",i++)
-// console.log(todo3)
 var mytodos={}
-for(let tud)
+for(let tudo of tudos)
 {
-let id=todo.userId
-let status=todo.completed
-if(!(id in mytodos))
-{
-  if(status==true)
-  {
-    mytodos[id]={userId:id,finished:1,pending:0,total:1}
-  }
-  else
-  {
-    mytodos[id]={userId:id,finished:0,pending:1,total:1}
-  }
-
+    let id=todo.userId
 }
-else
-{
-  if (status==true)
-  {
-    mytodos[id]["finished"]+=1
-    mytodos[id]["total"]+=1
-  }
-  else
-  {
-    mytodos[id]["pending"]+=1
-    mytodos[id]["total"]+=1
-  }
-}
-}
-console.log(mytodos)
